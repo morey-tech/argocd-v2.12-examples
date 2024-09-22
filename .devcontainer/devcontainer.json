@@ -13,6 +13,9 @@
 			"moby": "true"
 		}
 	},
+
+	"remoteUser": "root",
+	"containerUser": "root",
 	
 	"hostRequirements": {
 		// 4 cpus required for multi-node: https://github.com/akuityio/docs.akuity.io/issues/452#issuecomment-2111058843
