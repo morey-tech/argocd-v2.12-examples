@@ -1,6 +1,6 @@
 # What's New in Argo CD v2.12?
 
-## 2. Sources Tab in Application Details
+## 1. Sources Tab in Application Details
 
 > Implemented by [Keith Chong](https://github.com/keithchong) in [#17275](https://github.com/argoproj/argo-cd/pull/17275), closing [#17274](https://github.com/argoproj/argo-cd/issues/17274)
 

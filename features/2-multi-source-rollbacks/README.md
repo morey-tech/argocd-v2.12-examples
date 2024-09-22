@@ -1,6 +1,6 @@
 # What's New in Argo CD v2.12?
 
-## 1. Multi-Source Application Rollbacks
+## 2. Multi-Source Application Rollbacks
 
 > Introduced by [Jorge Turrado](https://github.com/JorTurFer) in [#14124](https://github.com/argoproj/argo-cd/pull/14124) closing [#12580](https://github.com/argoproj/argo-cd/issues/12580). Support extended in [#18615](https://github.com/argoproj/argo-cd/pull/18615).
 
