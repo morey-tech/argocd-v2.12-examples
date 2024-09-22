@@ -10,9 +10,9 @@ Get the `admin` password for the UI from:
 cat ~/argo-cd-admin-password.txt
 ```
 
-## [1. Multi-Source Application Rollbacks](features/1-multi-source-rollbacks/README.md)
+## [1. Sources Tab in Application Details](features/2-sources-tab/README.md)
 
-## [2. Sources Tab in Application Details](features/2-sources-tab/README.md)
+## [2. Multi-Source Application Rollbacks](features/1-multi-source-rollbacks/README.md)
 
 ## [3. Application Project Repository Credentials](features/3-app-project-repo-creds/README.md)
 
