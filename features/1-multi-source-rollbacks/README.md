@@ -23,7 +23,7 @@ To test this:
 
 Timeline:
 
-1. Issue #12580 opened on 2023-02-23.
-2. Pull request #14124 opened on 2023-06-19.
-3. Feature merged on 2024-06-10.
-4. 2.12.0 released 2024-07-05.
+1. 2023-02-23: Issue #12580 opened.
+2. 2023-06-19: Pull request #14124 opened.
+3. 2024-06-10: Feature merged.
+4. 2024-07-05: 2.12.0 released.
