@@ -15,6 +15,8 @@ As of Argo CD 2.12 you can now:
 - See information about the revision of both sources for each item in the history.
 - Rollback an Application to the revision of both sources from that point in time.
 
+![Screenshot of multiple sources in the HISTORY AND ROLLBACK tab](./image.png)
+
 To test this:
 
 1. On the `multi-source-app` `Application`, update the target revision for source 2 (`REPO URL: https://github.com/morey-tech/argo-cd-helm-values-demo`) to `fad7d80f96824e58579d9009b75772f119814c3e` to generate a new entry in the history.
