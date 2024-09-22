@@ -20,3 +20,10 @@ To test this:
 1. On the `multi-source-app` `Application`, update the target revision for source 2 (`REPO URL: https://github.com/morey-tech/argo-cd-helm-values-demo`) to `fad7d80f96824e58579d9009b75772f119814c3e` to generate a new entry in the history.
 2. Click on `HISTORY AND ROLLBACK` to view the history of the `Application`.
 3. Click on the older entry in the history to view the sources info. Then click on the button in the top right of the entry and click `Rollback` to rollback the `Application`.
+
+Timeline:
+
+1. Issue #12580 opened on 2023-02-23.
+2. Pull request #14124 opened on 2023-06-19.
+3. Feature merged on 2024-06-10.
+4. 2.12.0 released 2024-07-05.
