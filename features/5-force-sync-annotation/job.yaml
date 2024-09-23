@@ -3,7 +3,8 @@ kind: Job
 metadata:
   name: force-sync-example
   annotations:
-    # argocd.argoproj.io/sync-options: Force=true,Replace=true
+    # Try commenting me out and making a chance after.
+    argocd.argoproj.io/sync-options: Force=true,Replace=true
 spec:
   template:
     spec:

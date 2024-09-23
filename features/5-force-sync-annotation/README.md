@@ -6,6 +6,10 @@
 
 To update some common Kubernetes resources such as a `Job`, `CronJob`, or directly managed `Pods`, the `--force` option is required (e.g. `kubectl replace --force`). Argo CD has the ability to use `--force` for an entire sync operation, however this can be a destructive actions causing unintended downtime for services.
 
+Without the ability to force replace a single resource, an Application with a Job using a static name will fail to apply because the resource already exists.
+
+![Screenshot of failed sync with Job](./image.png)
+
 Argo CD 2.12 introduces support for the `Force=true` in the `argocd.argoproj.io/sync-options` annotation. This addition is an excellent complement to the existing `Replace=true` option to fully replicate the `kubectl replace --force` option on a **per resource basis**.
 
 ```yaml
