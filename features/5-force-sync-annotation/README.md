@@ -18,4 +18,4 @@ metadata:
     argocd.argoproj.io/sync-options: Force=true,Replace=true
 ```
 
-The combination of the `Replace=true` and `Force=true` options also serve as a way to ensure that a job is run each time an Application is synced.
+The combination of the `Replace=true` and `Force=true` options also serves as a way to ensure that a job is run each time an Application is synced or to address any resource that is immutable (i.e. doesn't work with `kubectl apply`, e.g. an `iam.cnrm.cloud.google.com/IAMPolicyMember`).
