@@ -26,4 +26,11 @@ data:
   resource.excludeEventLabelKeys: environment,bu
 ```
 
+```bash
+$ k get events -A --show-labels -l env=dev
+NAMESPACE   LAST SEEN   TYPE     REASON               OBJECT                         MESSAGE                                                                                 LABELS
+argocd      2s          Normal   OperationStarted     application/multi-source-app   admin initiated sync to 0.1.0 (0.1.0),HEAD (6d54e8c1caa74e12256da91285784b6d13c7b0e9)   env=dev,team=kubernetes-admins
+argocd      1s          Normal   OperationCompleted   application/multi-source-app   Sync operation to  succeeded                                                            env=dev,team=kubernetes-admins
+```
+
 In case of conflict between labels on the Application and AppProject, the Application label values are prioritized. The `resource.excludeEventLabelKeys` key can be used to exclude any labels on `Applications` or `AppProjects` from events.
