@@ -3,6 +3,9 @@ kind: Application
 metadata:
   name: multi-source-app
   namespace: argocd
+  labels:
+    team: kubernetes-admins
+    env: dev
 spec:
   destination:
     namespace: multi-source-app

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-cm
+data:
+  # An optional comma-separated list of metadata.labels keys to add to Kubernetes events generated for Applications.
+  resource.includeEventLabelKeys: team,env
+  # An optional comma-separated list of metadata.labels keys to exclude from Kubernetes events generated for Applications. Supports wildcards.
+  resource.excludeEventLabelKeys: environment,bu

@@ -9,6 +9,7 @@ resources:
 
 patches:
   - path: ./service.yaml
+  - path: ./argocd-cm.yaml
 
 # components:
 # - 
